@@ -1,38 +1,58 @@
+body {
+  background: linear-gradient(-45deg, #11651c, #12316c, #391c83, #69175b);
+  animation: gradient 15s ease infinite;
+
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-div{
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img {
+  height: 300px;
+  width: 300px;
+  box-shadow: 3px 17px 49px -21px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 17px 49px -21px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 17px 49px -21px rgba(0,0,0,0.75);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.name {
   color: white;
+  font-family: "Arial Black";
 }
 
-.App-link {
-  color: #61dafb;
+.gender {
+  color: white;
+  font-family: "Arial Black";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.status {
+  color: white;
+  font-family: "Arial Black";
+}
+
+.species {
+  color: white;
+  font-family: "Arial Black";
+}
+
+.id {
+  color: white;
+  font-family: "Arial Black";
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
