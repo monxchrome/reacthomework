@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {userService} from "../../api/userService";
 import {User} from "./User";
 
-const Users = () => {
+const Users = ({setUserId}) => {
 
     const [user, setUser] = useState([]);
 
@@ -14,7 +14,7 @@ const Users = () => {
 
         return (
             <div>
-                {user.map(item => <User key={item.id} user={item}/>)}
+                {user.map(item => <User key={item.id} user={item} setUserId={setUserId}/>)}
             </div>
         );
 };

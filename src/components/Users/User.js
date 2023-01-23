@@ -1,6 +1,6 @@
 import React from 'react';
 
-const User = ({user}) => {
+const User = ({user, setUserId}) => {
     const {id, name, username, email} = user
         return (
             <div>
@@ -23,6 +23,9 @@ const User = ({user}) => {
                     <h4>
                         ID: {id}
                     </h4>
+                </div>
+                <div>
+                    <button onClick={()=> setUserId(id)}>Test</button>
                 </div>
             </div>
         );
