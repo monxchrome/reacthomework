@@ -4,7 +4,7 @@ import {Users} from "./components";
 import {Posts} from "./components";
 import {useState} from "react";
 
-function App() {
+const App = () => {
     const [userId, setUserId] = useState(null)
   return (
     <div className="App">
