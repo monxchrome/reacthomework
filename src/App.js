@@ -1,6 +1,7 @@
 import './App.css';
-import {Users} from "./components/Users/Users";
-import {Posts} from "./components/Posts/Posts";
+
+import {Users} from "./components";
+import {Posts} from "./components";
 import {useState} from "react";
 
 function App() {

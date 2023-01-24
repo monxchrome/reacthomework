@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {userService} from "../../api/userService";
+
+import {userService} from "../../api";
 import {User} from "./User";
 
 const Users = ({setUserId}) => {
@@ -7,7 +8,7 @@ const Users = ({setUserId}) => {
     const [user, setUser] = useState([]);
 
     useEffect(() => {
-        userService.getAll
+        userService.getAll()
             .then(value => value.data)
             .then(value => setUser([...value]))
     }, [])
