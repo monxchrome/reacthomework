@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import {Launchers} from "./components/Launchers";
+
+import {Launchers} from "./components";
 
 function App() {
   return (
