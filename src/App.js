@@ -1,6 +1,7 @@
 import './App.css';
-import {UserForm, Users} from "./components";
 import {useEffect, useState} from "react";
+
+import {UserForm, Users} from "./components";
 import {usersService} from "./service";
 
 function App() {
