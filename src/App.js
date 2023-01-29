@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import {UserForm, Users} from "./components";
+import {useEffect, useState} from "react";
+import {userService} from "./services";
 
 function App() {
+
+    const [user,setUser] = useState([])
+    const [updateUser, setUpdateUser] = useState([])
+
+    useEffect(() => {
+        userService.getAll()
+            .then(({data}) => { setUser([...data])})
+    }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UserForm setUser={setUser} user={user} updateUser={updateUser}/>
+      <hr/>
+      <Users user={user} setUpdateUser={setUpdateUser}/>
     </div>
   );
 }
