@@ -1,23 +1,23 @@
 import './App.css';
-import {UserForm, Users} from "./components";
+import {CarForm, Cars} from "./components";
 import {useEffect, useState} from "react";
-import {userService} from "./services";
+import {carService} from "./services";
 
 function App() {
 
-    const [user,setUser] = useState([])
-    const [updateUser, setUpdateUser] = useState([])
+    const [car,setCar] = useState([])
+    const [updateCar, setUpdateCar] = useState([])
 
     useEffect(() => {
-        userService.getAll()
-            .then(({data}) => { setUser([...data])})
+        carService.getAll()
+            .then(({data}) => { setCar([...data])})
     }, [])
 
   return (
     <div className="App">
-      <UserForm setUser={setUser} user={user} updateUser={updateUser}/>
+      <CarForm setCar={setCar} updateCar={updateCar}/>
       <hr/>
-      <Users user={user} setUpdateUser={setUpdateUser}/>
+      <Cars car={car} setUpdateCar={setUpdateCar} setCar={setCar}/>
     </div>
   );
 }
