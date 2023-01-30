@@ -6,7 +6,7 @@ import {carService} from "./services";
 function App() {
 
     const [car,setCar] = useState([])
-    const [updateCar, setUpdateCar] = useState([])
+    const [updateCar, setUpdateCar] = useState()
 
     useEffect(() => {
         carService.getAll()

@@ -6,7 +6,7 @@ import {carService} from "../../services";
 
 const CarForm = ({setCar, updateCar }) => {
 
-    const {register, handleSubmit, reset, formState: {errors, isValid}, setValue} = useForm({mode: 'all'});
+    const {register, handleSubmit, reset, formState: {errors, isValid}, setValue} = useForm({mode: 'all', resolver: joiResolver(carValidator)});
 
     const submit = async (car) => {
         const {data} = await carService.create(car)
