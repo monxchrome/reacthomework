@@ -1,4 +1,3 @@
-import React, {useState} from 'react';
 import css from './Post.module.css'
 
 const Post = ({posts}) => {
@@ -13,11 +12,13 @@ const Post = ({posts}) => {
                             {title}
                         </h4>
                     </div>
+
                     <div className={css.BodyDiv}>
                         <p className={css.Body}>
                             {body}
                         </p>
                     </div>
+
                 </div>
             </div>
         );

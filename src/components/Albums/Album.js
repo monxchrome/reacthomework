@@ -1,4 +1,5 @@
 import React from 'react';
+
 import css from './Albums.module.css'
 
 const Album = ({albums}) => {
@@ -12,11 +13,13 @@ const Album = ({albums}) => {
                             {id}
                         </h4>
                     </div>
+
                     <div className={css.TitleDiv}>
                         <h4 className={css.Title}>
                             {title}
                         </h4>
                     </div>
+
                 </div>
             </div>
         );

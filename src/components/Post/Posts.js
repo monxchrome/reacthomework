@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+
 import {postsService} from "../../services";
 import {Post} from "./Post";
 
@@ -9,7 +10,7 @@ const Posts = ({postId}) => {
     useEffect(() => {
         postsService.getById(postId)
             .then(({data}) => setPost([data]))
-    }, [])
+    }, [postId])
 
         return (
             <div>

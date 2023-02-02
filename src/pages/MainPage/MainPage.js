@@ -14,19 +14,23 @@ const MainPage = () => {
                             New
                         </p>
                     </div>
+
                     <div className={css.TitleDiv}>
                         <h4 className={css.Title}>
                             iPhone 14 Pro
                         </h4>
                     </div>
+
                     <div className={css.ModelDiv}>
                         <h3 className={css.Model}>
                             Pro Beyond
                         </h3>
                     </div>
+
                     <div>
                         <img src={iphone} alt=""/>
                     </div>
+
                 </div>
             </div>
         );
