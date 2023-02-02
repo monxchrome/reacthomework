@@ -1,0 +1,20 @@
+.Father{
+    display: block;
+    margin: 20px;
+}
+
+.TitleDiv{
+    margin: 10px;
+}
+
+.BodyDiv{
+    margin: 10px;
+}
+
+.Title{
+    color: white;
+}
+
+.Body{
+    color: white;
+}

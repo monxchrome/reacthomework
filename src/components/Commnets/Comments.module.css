@@ -1,0 +1,100 @@
+.Father{
+    margin: 20px;
+    text-align: center;
+}
+
+.Mother{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.IdDiv{
+    width: 100px;
+    height: 100px;
+}
+
+.PostIdDiv{
+    width: 100px;
+    height: 100px;
+}
+
+.NameDiv{
+    position: relative;
+    left: 500px;
+    width: 500px;
+    height: 100px;
+}
+
+.BodyDiv{
+    position: relative;
+    left: 500px;
+    width: 500px;
+    height: 100px;
+}
+
+.Id{
+    color: rgba(255,255,255,.3);
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+.PostId{
+    color: rgba(255,255,255,.3);
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+.Name{
+    color: rgba(255, 255, 255, 0.76);
+    text-shadow: 0 0 50px rgba(255, 255, 255, 0.94), 0 0 10px rgba(255, 255, 255, 0.94);
+}
+
+.BodyP{
+    color: white;
+}
+
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.A_hover{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    left: 650px;
+    transition: all .35s;
+}
+
+.A_hover span{
+    position: relative;
+    z-index: 2;
+}
+
+.A_hover:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #2c2c2c;
+    transition: all .35s;
+}
+
+.A_hover:hover{
+    color: #fff;
+}
+
+.A_hover:hover:after{
+    width: 100%;
+}

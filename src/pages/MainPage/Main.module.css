@@ -1,0 +1,46 @@
+.Father{
+    position: relative;
+    top: 200px;
+    display: block;
+    text-align: center;
+}
+
+.NewDiv{
+    position: relative;
+    top: 45px;
+}
+
+.TitleDiv{
+    position: relative;
+    top: 25px;
+}
+
+.ModelDiv{
+
+}
+
+.ImgDiv{
+
+}
+
+
+.New{
+    color: silver;
+}
+
+.Title{
+    color: white;
+    font-size: x-large;
+}
+
+.Model{
+    background: #FF91ED;
+    background: linear-gradient(to bottom, #FF91ED 0%, #A100FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+.Img{
+
+}

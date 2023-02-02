@@ -1,0 +1,39 @@
+.Father {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.IdDiv{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    box-shadow: -39px 5px 400px -35px rgba(255,0,0,1);
+    -webkit-box-shadow: -39px 5px 400px -35px rgba(255,0,0,1);
+    -moz-box-shadow: -39px 5px 400px -35px rgba(255,0,0,1);
+}
+
+.TitleDiv{
+    width: 500px;
+    height: 100px;
+}
+
+.CompDiv{
+    width: 100px;
+    height: 100px;
+    box-shadow: 17px 2px 400px -35px rgba(255,0,0,1);
+    -webkit-box-shadow: 17px 2px 400px -35px rgba(255,0,0,1);
+    -moz-box-shadow: 17px 2px 400px -35px rgba(255,0,0,1);
+}
+
+.Id{
+    color: white;
+}
+
+.Title{
+    color: white;
+}
+
+.Comp{
+    color: white;
+}
