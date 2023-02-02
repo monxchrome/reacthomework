@@ -1,0 +1,10 @@
+.But {
+    position: relative;
+    left: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    background: white;
+}
