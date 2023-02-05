@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import {useReducer} from "react";
+import {CatForm, Cats} from "./components";
+import {DogForm} from "./components/Dogs/DogForm";
+import {Dogs} from "./components/Dogs/Dogs";
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Cats: <CatForm/>
+        Dogs: <DogForm/>
+      <hr/>
+      <Cats/>
+        <Dogs/>
     </div>
   );
 }
