@@ -4,8 +4,10 @@ class User extends Component {
     constructor(props) {
         super(props);
     }
+
     render() {
         const {id, name, username} = this.props.users
+
         return (
             <div>
                 <div>

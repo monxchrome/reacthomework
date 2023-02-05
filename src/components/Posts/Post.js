@@ -4,6 +4,7 @@ class Post extends Component {
     constructor(props) {
         super(props);
     }
+
     render() {
         const {id, title, body} = this.props.posts
         return (
