@@ -1,4 +1,5 @@
 import {Component} from "react";
+
 import {postService} from "../../services";
 import {Post} from "./Post";
 
@@ -15,6 +16,7 @@ class ClassPosts extends Component {
 
 
     render() {
+
         return (
             <div>
                 {this.state.posts.map(item => <Post key={item.id} posts={item}/>)}
