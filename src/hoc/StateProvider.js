@@ -1,4 +1,5 @@
 import React, {createContext, useReducer} from 'react';
+
 import {catRed, dogRed, init} from "../reducers";
 
 const StateContext = createContext(null)

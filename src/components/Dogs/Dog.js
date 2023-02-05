@@ -1,10 +1,12 @@
 import React from 'react';
+
 import {useAppReducer} from "../../hooks";
 import {dogActions} from "../../reducers";
 
 const Dog = ({dog}) => {
     const [, dispatch] = useAppReducer(value => value.dogReducer)
     const {id, name, color} = dog
+
         return (
             <div>
                 <div>

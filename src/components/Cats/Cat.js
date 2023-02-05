@@ -1,10 +1,12 @@
 import React from 'react';
+
 import {useAppReducer} from "../../hooks";
 import {catActions} from "../../reducers";
 
 const Cat = ({cat}) => {
     const [, dispatch] = useAppReducer(value => value.catReducer)
     const {id, name, color} = cat
+
         return (
             <div>
                 <div>
