@@ -1,0 +1,13 @@
+.text{
+    color: white;
+}
+
+.margin{
+    margin: 10px
+}
+
+.scrolle {
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
