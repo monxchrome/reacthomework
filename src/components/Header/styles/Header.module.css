@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.Header {
+    width: 100%;
+    height: 50px;
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.Father{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 15px;
+}
+
+.Login {
+
+}
+
+.Register {
+
+}
