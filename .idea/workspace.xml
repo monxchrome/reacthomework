@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="953ef280-c21e-432d-b1c8-e146ad427903" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KYgUea2DgSHhbXeIXAsbrBufJG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/stefan/IdeaProjects/reacthomework/src/components/Cars&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/stefan/IdeaProjects/reacthomework/node_modules/typescript/lib&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Cars" />
+      <recent name="$PROJECT_DIR$/src/Layouts" />
+      <recent name="$PROJECT_DIR$/src/validators" />
+      <recent name="$PROJECT_DIR$/src/services" />
+      <recent name="$PROJECT_DIR$/src/redux" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/Cats" />
+      <recent name="$PROJECT_DIR$/src/components/Post" />
+      <recent name="$PROJECT_DIR$/src/components/Header" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="953ef280-c21e-432d-b1c8-e146ad427903" name="Changes" comment="" />
+      <created>1674156948022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674156948022</updated>
+      <workItem from="1674156950282" duration="2572000" />
+      <workItem from="1674221512377" duration="961000" />
+      <workItem from="1674323080402" duration="3167000" />
+      <workItem from="1674394266489" duration="17000" />
+      <workItem from="1674394286708" duration="3043000" />
+      <workItem from="1674482131299" duration="14000" />
+      <workItem from="1674482148844" duration="2116000" />
+      <workItem from="1674575845575" duration="5958000" />
+      <workItem from="1674665924387" duration="2451000" />
+      <workItem from="1674688099780" duration="11000" />
+      <workItem from="1674745689521" duration="2248000" />
+      <workItem from="1674922844370" duration="3135000" />
+      <workItem from="1674996141141" duration="8727000" />
+      <workItem from="1675018644213" duration="1445000" />
+      <workItem from="1675094160117" duration="33296000" />
+      <workItem from="1675585308793" duration="1000" />
+      <workItem from="1675585337164" duration="8804000" />
+      <workItem from="1675619867791" duration="147000" />
+      <workItem from="1675793836905" duration="8372000" />
+      <workItem from="1675873779247" duration="4843000" />
+      <workItem from="1675947196987" duration="6762000" />
+      <workItem from="1676043806246" duration="1259000" />
+      <workItem from="1676216810576" duration="5904000" />
+      <workItem from="1676302377678" duration="3199000" />
+      <workItem from="1676386033973" duration="4339000" />
+      <workItem from="1676390400780" duration="476000" />
+      <workItem from="1676390881107" duration="88000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/services/apiService.js" />
+        <option value="$PROJECT_DIR$/services/spaceService.js" />
+        <option value="$PROJECT_DIR$/interfaces/spaceInterface.js" />
+        <option value="$PROJECT_DIR$/interfaces/responseInterface.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
