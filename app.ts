@@ -1,15 +1,25 @@
-import {IUser} from "./interfaces/userInterface";
+export interface IUser {
+    name: string;
+    age: number;
+    gender: string
+}
+
+let user = {
+    name: 'vasya',
+    age: 12,
+    gender: 'male'
+}
 
 
-
-function sum(a,b){
+function sum(a:number,b:number):number {
     return a+b
 }
-function showSum(a,b){
+
+function showSum(a:number, b:number):void {
     console.log(a + b);
 }
 
-function incAge(someUser, inc){
+function incAge(someUser:IUser, inc:number):object{
     someUser.age+=inc
     return someUser
 }
